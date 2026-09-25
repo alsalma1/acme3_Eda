@@ -19,3 +19,21 @@ int main() {
     // mostrant valor o * (després de treure cada element)
     cout << endl;
 }
+
+
+
+/*leer caracteres hasta '.'
+
+    mayúscula → Empila()
+                 ↓
+              mostrar Cim()
+
+    minúscula → Desempila()
+                 ↓
+              mostrar Cim()
+
+    cualquier otro → ignorar
+
+al encontrar '.':
+    vaciar la pila elemento a elemento
+    mostrando Cim() después de cada Desempila()*/
